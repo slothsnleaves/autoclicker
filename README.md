@@ -12,7 +12,7 @@ Due to the extreme input velocity this script can generate, **users must exercis
 
 **Prerequisites & Installation**
 
-**This application requires Python 3.x and specific external libraries to interface with system hardware.** The script will remain non-functional until these dependencies are satisfied.
+**This application requires Python 3.x and specific external libraries to interface with system hardware IF you want to change the code.** The script will remain non-functional until these dependencies are satisfied.
 **Required Modules**
 
   pyautogui: Facilitates programmatic mouse control.
@@ -27,8 +27,8 @@ Execute the following command in your terminal or command prompt:
 
 **Usage**
 
-  Ensure all dependencies are installed.
+  Ensure all dependencies are installed if you plan on changing the code.
 
-  Run the script via your preferred Python interpreter.
+  Use the directions in the readme file when you extract it.
 
   Use the designated hotkeys to toggle the clicking mechanism.
