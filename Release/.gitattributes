@@ -1,6 +1,2 @@
-# Ignore all HTML files in the stats
-*.html linguist-detectable=false
-
-# Ignore a specific folder (like documentation or vendored code)
-docs/* linguist-vendored
-reports/*.tex linguist-detectable=false
+*.html linguist-documentation
+*.tex linguist-documentation
