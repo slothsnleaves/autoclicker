@@ -1,12 +1,6 @@
-# Handle python files as text and use python-style diffs
-*.py text diff=python
-*.pyi text diff=python
+# Ignore all HTML files in the stats
+*.html linguist-detectable=false
 
-# Treat compiled python files and databases as binary
-*.pyc binary
-*.pyo binary
-*.pyd binary
-*.db binary
-
-# Ensure Jupyter Notebooks use consistent line endings
-*.ipynb text eol=lf
+# Ignore a specific folder (like documentation or vendored code)
+docs/* linguist-vendored
+reports/*.tex linguist-detectable=false
